@@ -58,3 +58,11 @@ Setup
 4.  Backup your **current** ``~/.bash_profile``
 5.  Replace it with the **new**
     ``.bash_profile`` from this repository
+
+Contributing
+------------
+
+These files are for all of us to use and customize.
+If you want to make modifications, report bugs, add new features
+you should feel free to do so. Just document your suggestions
+and changes using the Issue Tracker.
