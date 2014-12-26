@@ -19,9 +19,9 @@ function git_branch {
 
 	if [[ $git_status =~ $on_branch ]]; then
 		local branch=${BASH_REMATCH[1]}
-		echo "($branch)"
+		echo " ($branch)"
 	elif [[ $git_status =~ $on_commit ]]; then
 		local commit=${BASH_REMATCH[1]}
-		echo "($commit)"
+		echo " ($commit)"
 	fi
 }
