@@ -3,8 +3,8 @@
 #**************
 
 # Import color shortcuts
-if [ -f ~/bin/bash_colors.sh ]; then
-    source ~/bin/bash_colors.sh
+if [ -f bash_colors.sh ]; then
+    source bash_colors.sh
 fi
 
 # Add colours to CLI and ls
@@ -21,29 +21,18 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 #***************************************
 
 # git prompt
-if [ -f ~/bin/git-prompt.sh ]; then
-    source ~/bin/git-prompt.sh
+if [ -f git-prompt.sh ]; then
+    source git-prompt.sh
 fi
 
 # git completion
-if [ -f ~/bin/git-completion.sh ]; then
-    source ~/bin/git-completion.sh
+if [ -f git-completion.sh ]; then
+    source git-completion.sh
 fi
 
 # django completion
-if [ -f ~/bin/django_autocomplete.sh ]; then
-    source ~/bin/django_autocomplete.sh
-fi
-
-# virtualenvwrapper
-if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
-    export WORKON_HOME=~/Envs
-    source /usr/local/bin/virtualenvwrapper.sh
-fi
-
-# vagrant completion
-if [ -f /usr/local/etc/bash_completion.d/vagrant ]; then
-    source /usr/local/etc/bash_completion.d/vagrant
+if [ -f django_autocomplete.sh ]; then
+    source django_autocomplete.sh
 fi
 
 
