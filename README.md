@@ -48,16 +48,17 @@ List of Files
 Setup
 -----
 
-1. Clone this repository
-2. Create a ``~/bin/`` directory
-3. Copy ``bash_colors.sh``,
-    ``git-prompt.sh``,
-    ``git-completion.sh``,
-    ``django-autocomplete.sh``
-    into ``~/bin/``
-4.  Backup your **current** ``~/.bash_profile``
-5.  Replace it with the **new**
-    ``.bash_profile`` from this repository
+1.  Clone this repository:
+
+        git clone https://github.com/KISRDevelopment/BashProfile.Git
+
+2.  In your current ``~/.bash_profile``, set $PROFILE_HOME to the clone directory:
+
+        export PROFILE_HOME=/location/where/you/cloned/this/repository
+
+3. In you current ``~/.bash_profile`` source the ``bash_profile.sh`` file from this repository:
+        
+        source /location/where/you/cloned/this/repository/bash_profile.sh    
 
 Contributing
 ------------
