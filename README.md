@@ -48,15 +48,18 @@ List of Files
 Setup
 -----
 
+Setting up your profile in the following way means it will update every time
+you pull from this repository:
+
 1.  Clone this repository:
 
         git clone https://github.com/KISRDevelopment/BashProfile.Git
 
-2.  In your current ``~/.bash_profile``, set $PROFILE_HOME to the clone directory:
+2.  In your current ``~/.bash_profile``, set ``$PROFILE_HOME`` to the clone directory:
 
         export PROFILE_HOME=/location/where/you/cloned/this/repository
 
-3. In you current ``~/.bash_profile`` source the ``bash_profile.sh`` file from this repository:
+3. At the **end** of your current ``~/.bash_profile`` source the ``bash_profile.sh`` file from this repository:
         
         source /location/where/you/cloned/this/repository/bash_profile.sh    
 
