@@ -3,8 +3,8 @@
 #**************
 
 # Import color shortcuts
-if [ -f bash_colors.sh ]; then
-    source bash_colors.sh
+if [ -f "$PROFILE_HOME/bash_colors.sh" ]; then
+    source "$PROFILE_HOME/bash_colors.sh"
 fi
 
 # Add colours to CLI and ls
@@ -21,18 +21,18 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 #***************************************
 
 # git prompt
-if [ -f git-prompt.sh ]; then
-    source git-prompt.sh
+if [ -f "$PROFILE_HOME/git-prompt.sh" ]; then
+    source "$PROFILE_HOME/git-prompt.sh"
 fi
 
 # git completion
-if [ -f git-completion.sh ]; then
-    source git-completion.sh
+if [ -f "$PROFILE_HOME/git-completion.sh" ]; then
+    source "$PROFILE_HOME/git-completion.sh"
 fi
 
 # django completion
-if [ -f django_autocomplete.sh ]; then
-    source django_autocomplete.sh
+if [ -f "$PROFILE_HOME/django_autocomplete.sh" ]; then
+    source "$PROFILE_HOME/django_autocomplete.sh"
 fi
 
 
