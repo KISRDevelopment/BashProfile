@@ -8,6 +8,24 @@ and a smart **Git Prompt**.
 
 Feel free to use it as you please, customize it, change it.
 
+Setup
+-----
+
+Setting up your profile in the following way means it will update every time
+you pull from this repository:
+
+1.  Clone this repository:
+
+        git clone https://github.com/KISRDevelopment/BashProfile.Git
+
+2.  In your current ``~/.bash_profile``, set ``$PROFILE_HOME`` to the clone directory:
+
+        export PROFILE_HOME=/location/where/you/cloned/this/repository
+
+3. At the **end** of your current ``~/.bash_profile`` source the ``bash_profile.sh`` file from this repository:
+        
+        source /location/where/you/cloned/this/repository/bash_profile.sh    
+
 List of Files
 -------------
 
@@ -45,23 +63,6 @@ List of Files
     It gives you tab-completion for ``manage.py``
     on the command line.
 
-Setup
------
-
-Setting up your profile in the following way means it will update every time
-you pull from this repository:
-
-1.  Clone this repository:
-
-        git clone https://github.com/KISRDevelopment/BashProfile.Git
-
-2.  In your current ``~/.bash_profile``, set ``$PROFILE_HOME`` to the clone directory:
-
-        export PROFILE_HOME=/location/where/you/cloned/this/repository
-
-3. At the **end** of your current ``~/.bash_profile`` source the ``bash_profile.sh`` file from this repository:
-        
-        source /location/where/you/cloned/this/repository/bash_profile.sh    
 
 Contributing
 ------------
